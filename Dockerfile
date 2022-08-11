@@ -13,7 +13,3 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | b
 WORKDIR /app_pr
 COPY Gemfile Gemfile.lock /app_pr
 RUN bundle install
-
-# brew install
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
